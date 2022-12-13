@@ -1,0 +1,150 @@
+Soal 1SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Ada berapa cara untuk memindahkan grafik Excel ke Powerpoint?
+
+Jelaskan
+
+Teks jawaban
+Terdapat tiga cara yang paling sering dipakai dalam memindahkan grafik ke powerpoint, yaitu copy paste grafik sebagai gambar atau as picture, copy paste biasa, dan copy paste embed workbook.
+
+a.       Cara 1: copy paste as picture bertujuan agar grafik tidak dapat diubah atau di edit oleh orang lain
+
+Grafik yang sudah dihasilkan pada excel → copy grafik (ctrl+c) → di power point grafik di paste dengan cara klik paste di kiri atas → klik panah kecil di bawah tulisan paste → kemudian pilih picture
+
+b.      Cara 2: copy paste biasa untuk memudahkan pengeditan di powerpoint
+
+Grafik yang sudah dihasilkan pada excel di copy (ctrl+c) dan di paste di powerpoint (ctrl+v)
+
+c.       Cara 3: copy paste embed workbook agar saat mengirim powerpoint ke orang lain maka akan mengembed excel kita beserta datanya
+
+Grafik yang sudah dihasilkan pada excel kemudian di copy (ctrl+c) → di power point grafik di paste dengan cara klik paste di kiri atas → klik panah kecil di bawah tulisan paste → kemudian klik keep source formating & embed workbook
+
+
+Soal 2SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Bagaimana cara membuat grafik control chart QC di Excel?
+
+Teks jawaban
+Siapkan data harian yang meliputi tanggal, jumlah produksi, rata-rata, standar deviasi, UCL, dan LCL. Cara mencari data-data olahan tersebut dilakukan dengan cara sebagai berikut:
+
+·         Rata-rata dicari dengan =average(range dengan diberi tanda $)
+
+·         Standar deviasi dicari dengan rumus =STDEV.S(range diberi tanda $)
+
+·         UCL dicari dengan =rata-rata+(3*standar deviasi)
+
+·         LCL dicari dengan =rata-rata-(3*standar deviasi)
+
+
+Soal 3SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Jelaskan cara membuat grafik ogive positif dan negatif di Excel!
+
+Teks jawaban
+Untuk menunjukan data frekuensi kumulatif kurang dari (ogive positif) dan frekuensi kumulatif lebih dari (ogive negatif), sajikan data dalam tabel yang meliputi data range usia, jumlah, nilai tengah, frekuensi kumulatif kurang dari, dan frekuensi kumulatif lebih dari. Adapun cara pengolahan data tersebut adalah dengan cara sebagai berikut:
+
+·         Nilai tengah dengan =(range awal+range akhir)/2
+
+·         Frekuensi kumulatif kurang dari  dengan=SUM(jumlah dengan dikunci fn f4:jumlah)
+
+·         Frekuensi kumulatif lebih dari dengan =SUM(blok jumlah + f4)
+
+Pembuatan grafik dilakukan dengan blok data nilai tengah, frekuensi kurang dari, dan frekuensi lebih dari - klik insert - klik recomended chart - klik opsi line - klik OK - ubah judul dengan judul yang sesuai - klik grafiknya - pilih Chart Design - klik Change Chart Theme - Line With Marker - klik OK. Selesai.
+
+
+Soal 4SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Jelaskan cara membuat garis rata-rata di grafik Excel!
+
+Teks jawaban
+Buat tabel yang berisi data nama, data angka (penjualan), dan rata-rata - blok data - klik insert - klik combo chart yang paling kiri - isikan judul yang sesuai - klik salah satu batang grafik - klik Chart Design - Add Chart Element - Data Labels - Inside End - sesuaikan desin - klik garis rata-rata kemudian ubah warnanya agar tambah menonjol - garis selesai.
+
+
+Soal 5SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Bagaimana cara membuat Icon set panah di Tabel Excel secara otomatis?
+Teks jawaban
+●       Siapkan data excel - block tempat (row/column) yang akan diberi panah - conditional formatting - icon set
+●       Untuk mengatur format panah (naik/turun): block data - manage rules - icon yang dipilih tadi click - edit rule - pada bagian rule description, edit type menjadi number - edit icon panah yang kuning menjadi warna merah - ok, apply, ok (apabila negatif akan langsung berwarna merah panahnya
+
+
+Soal 6SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Jelaskan cara membuat grafik persentase perbandingan penjualan di Excel dengan 3 Variabel!
+
+Teks jawaban
+●       Tabelnya terdiri dari nama barang, tahun (minimal 2 tahun), dan pertumbuhan (=[tahun atas-tahun bawah]/tahun bawah) -  atur pertumbuhan dari accounting jadi percentage
+●       Membuat grafik: block semua data (tabel) - insert - chart “insert combo chart” - pilih grafik yang tengah - ganti judul chart - atur skala angka bagian kiri di format dengan edit units major 50,0 dan minor 10,0
+
+Soal 7SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Bagaimana cara membuat grafik diagram garis  dengan dua variabel pada data lintas tahun?
+
+Teks jawaban
+·         Siapkan data dengan 2 variabel > klik insert > lalu di blok > Pilih more line chart > combo> variabel satu dan dua chart typenya diganti tulisan “Line” > kemudian secondary axis di centang. Klik ok.
+
+·         Memunculkan tahun pada bagian bawah grafik dengan mengklik tabel batang tekan delete hingga tabel batang hilang terhapus > chart design > select data > axis labels kita blok daftar tahun pada data.
+
+
+Soal 8SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Bagaimana cara Membuat grafik diagram Pareto di Excel baik secara otomatis maupun manual?
+
+Teks jawaban
+a.       Otomatis: Tidak dapat memunculkan persen atau persen kumulatif sehingga harus manual.
+
+●       Siapkan data  → blok data → Insert → klik Statistic Chart → klik Pareto Histogram
+
+●       Jika ingin memunculkan angka di atas batangnya, blok diagram dengan cara klik satu kali di area pojok manapun → pilih menu Chart Design → Add Chart Element → Data Labels → Outside End → angka akan muncul.
+
+b.      Manual
+
+Dalam data yang sudah disiapkan, edit terlebih dahulu dengan menambahkan kolom persen kumulatif → filter data terlebih dahulu dengan cara blok baris nama → Tab Data → klik segitiga ke bawah di sebelah penamaan → Sort Largest to Smallest → kemudian hitung persen kumulatif dengan rumus =Sum($Number 1; Number 2)/sum($Number 1; $Number 2) atau cara cepat mengunci sel adalah klik Fn + F4 atau F4 saja tergantung device → enter → ubah bentuk desimal ke persen di tab Home → Group Number, klik Percentage yang berlambangkan % → di ujung kanan bawah sel yang sudah dihitung klik dua kali agar sel selanjutnya terisi otomatis.
+
+●       Pembuatan Pareto dilakukan pada tab Insert → klik Insert Combo Chart → pilih Clustered Column - Line on Secondary Axis yang di tengah → Diagram Pareto sudah jadi.
+
+●       Pemberian persen dilakukan dengan klik garis melengkung ke atas satu kali → Add Chart Element → Data Labels → tersedia berbagai posisi, misalnya pilih Above supaya persentase berada di atas garis.
+
+●       Diagram Pareto tidak boleh terdapat jarak di antara diagram batangnya, maka harus diedit lagi. Pertama, klik batangnya satu kali → tab Format → Group Current Selection, pilih Format Selection → dalam Format Data Series, klik yang bergambar diagram batang →  di Series Option, atur Gap Width menjadi 3% → klik di sel kosong → Diagram Pareto sudah jadi.
+
+
+Soal 9SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Bagaimana cara membuat diagram kartesius di Excel?
+
+Teks jawaban
+Menyiapkan data titik titik X dan Y → blok data → Insert → klik Insert Scatter (x,y) or Bubble Chart di sebelah kanan chart lingkaran → pilihan untuk menyambungkan titik-titik tersebut biasanya berupa garis lurus, klik diagram yang kanan bawah. Bisa juga menghilangkan marker (titik-titik).
+
+●       Dalam menambahkan garis X dan Y, klik salah satu titik di X maka titik di garis X semua akan terblok → menu Format → Shape Outline, pilih warna sesuai kemauan → jika ingin menebalkan garisnya klik Weight di Shape Outline → pilih ketebalan garis. Cara ini berlaku baik di titik X ataupun Y.
+
+
+Soal 10SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Bagaimana cara membuat diagram kartesius tanpa garis yang merepresentasikan titik sebaran XY? 
+
+Teks jawaban
+●       Siapkan data titik titik X dan Y → blok data → Insert → klik Insert Scatter (x,y) or Bubble Chart di sebelah kanan chart lingkaran → pilih Diagram Scatter
+
+●       Pemberian warna dalam diagram akan selalu sama melalui Shape Fill, begitu pula pemberian garis XY selalu ada di Shape Outline
+
+●       Jika ingin memberikan highlight di persebaran titik, klik satu kali di salah satu titik → di tab Format, klik Shape Effect → pilih sesuai selera, misalnya Glow.
+
+
+Soal 11SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Bagaimana cara membuat grafik histogram di Excel?
+
+Teks jawaban
+·         Blok data yang dimiliki > insert > chart > histogram > klik. Pilih paling kiri
+
+·         Jika hanya muncul 3 batang maka lakukan ini : klik chart > format > format selection > format chart area > klik angka dibawah grafik > klik tanda histogram pada format axis > klik number of  bins >  klik jumlah angka yang disesuaikan dengan keinginan mau berapa histogram batang yang diinginkan.
+
+
+Soal 12SelesaiPoin maks 1,00Tandai soal
+Teks soal
+Jelaskan cara membuat diagram scatter plot pencar beserta rumus R kuadrat regresi!
+
+Teks jawaban
+●       Blok data → klik tab insert → lalu klik chart → pilih jenis chart yang berbentuk seperti plot atau titik-titik dan pilih grafik yang bernama scatter
+
+●       Klik grafik scatterplot yang sudah dihasilkan → klik chart design → klik quick layout di sebelah kiri atas → pilih layout 9 → kemudian hasil garis linear dan persamaan R square atau R kuadrat akan muncul di dalam grafik scatterplot
